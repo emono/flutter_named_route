@@ -21,7 +21,7 @@ class FirstScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Title'),
+        title: Text('First Screen'),
       ),
       body: Center(
         child: RaisedButton(
@@ -40,7 +40,7 @@ class SecondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Title'),
+        title: Text('Second Screen'),
       ),
       body: Center(
         child: RaisedButton(
